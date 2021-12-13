@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <button class="btn-arrow">
+                <i class='bx bx-left-arrow-alt icon-arrow'></i>
+            </button>
+            Weather App
+        </header>
+
+        <div class="divider"></div>
+
+        <section class="input-box ">
+            <p class="info-text" id="info-text">Enter a valid city name</p>
+
+            <div class="input-search">
+                <input type="text" name="search" id="search" placeholder="Enter city name" required>
+                <button class="btn-search">
+                    <i class='bx bx-search icon-search' ></i>
+                </button>
+            </div>
+        </section>
+
+        <section class="weather-details">
+            <img id="weatherIcon" src="" alt="">
+
+            <div class="current-temp">
+                <p id="current-temperature">Temperature</p>
+                <span>&deg;C</span>
+            </div>
+
+            <h1 id="current-weather">Current weather</h2>
+
+            <div class="current-city">
+                <i class='bx bx-map'></i>
+                <h2 id="current-city">City</h2>
+                    
+            </div>
+
+            <div class="extra-details">
+                <div class="row">
+                    <div class="extra-item">
+                        <div class="icon-box">
+                            <i class='bx bxs-thermometer' ></i>
+                        </div>
+
+                        <div>
+                            <p>Min Temp</p>
+                            <span id="min-temperature">Min Temperature</span>
+                        </div>
+
+                    </div>
+    
+                    <div class="extra-item">
+                        <div class="icon-box">
+                            <i class='bx bxs-thermometer' ></i>
+                        </div>
+
+                        <div>
+                            <p>Max Temp</p>
+                            <span id="max-temperature">Max Temperature</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="extra-item">
+                        <div class="icon-box">
+                            <i class='bx bx-wind' ></i>
+                        </div>
+
+                        <div>
+                            <p>Wind speed</p>
+                            <span id="wind-speed">Wind speed</span>
+                        </div>
+                    </div>
+                
+                    <div class="extra-item">
+                        <div class="icon-box">
+                            <i class='bx bxs-droplet-half' ></i>
+                        </div>
+
+                        <div>
+                            <p>Humidity</p>
+                            <span id="humidity">Humidity</span>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #6dbdfa;
+    font-size: 10px;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.hidden{
+    display: none;
+}
+
+.container{
+    background: #fff;
+    width: 20rem;
+    height: auto;
+    border-radius: 7px;
+    padding: 20px 0;
+}
+
+/* -----------------------  */
+
+header{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #6dbdfa;
+}
+
+.divider{
+    margin: 1rem 0 1rem 0;
+    border-bottom: 1px solid #d8d8d8;
+    width: 100%;
+}
+
+/* ------------- ICONS ------------ */
+i,
+.container.active .icon-arrow{
+    font-size: 1.3rem;
+}
+
+.icon-arrow{
+    font-size: 0;
+}
+
+.icon-box i{
+    font-size: 1.8rem;
+}
+
+.icon-arrow,
+.icon-box{
+    margin-right: .5rem;
+}
+
+.icon-arrow,
+.icon-search{
+    margin-top: .4rem;
+}
+
+.icon-box,
+.icon-search,
+.icon-arrow{
+    color:#6dbdfa;
+}
+
+/* ------------------------------ */
+
+/* input box */
+.container.active .input-box{
+    display: none;
+}
+
+.input-box{
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.info-text{
+    display: none;
+    font-size: 0.9rem;
+    padding: 5px 8px;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 3px;
+}
+
+.info-text.active{
+    display: flex;
+}
+
+.info-text.error{
+    color: #721c24;
+    background: #f8d7da;
+    border: 1px solid #f5c6cb;
+}
+
+.info-text.pending{
+    color: #0c5460;
+    background: #d1ecf1;
+    border: 1px solid #bee5eb;
+}
+
+.input-search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+input[type="text"]{
+    border: none;
+    border: 1px solid #d8d8d8;
+    border-radius: 3px;
+    padding: 5px 8px;
+    margin-right: -22px;
+    width: 80%;
+    color: #333;
+}
+
+input[type="text"]:is(:focus, :valid){
+    outline-color: #afdbfc;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+
+/* ---------------------------- */
+.weather-details{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container.active .weather-details{
+    display: flex;
+}
+
+#current-temperature{
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.current-temp{
+    display: flex;
+    align-items: center;
+}
+
+.current-temp span{
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+
+#current-weather{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+#current-city{
+    font-size: .8rem;
+    font-weight: 400;
+}
+
+.current-city{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.current-city h2{
+    margin-left: .2rem;
+}
+
+
+/* ---------------------------- */
+
+.extra-details{
+    margin-top: 15px;
+    margin-left: -8px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+
+.extra-item{
+    display: flex;
+    flex: 50%;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.extra-item span{
+    font-size: 1.3rem;
+}
