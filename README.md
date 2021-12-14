@@ -1,12 +1,12 @@
 <h1 align="center">🌦️ Weather App</h1>
 
-<h2> Sobre </h2>
+<p> Sobre </p>
 
 Projeto desenvolvido para praticar conhecimentos em consumo de API, onde o usuário pode pesquisar por uma cidade e receber a previsão em tempo real
 
 <hr></hr>
 
-## Tecnologias utilizadas
+<p> Tecnologias utilizadas </p>
 - HTML
 - CSS
 - Javascript
