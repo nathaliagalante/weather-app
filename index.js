@@ -1,3 +1,4 @@
+
 const container = document.querySelector('.container');
 const btnArrow = document.querySelector('.btn-arrow');
 const btnSearch = document.querySelector('.btn-search');
@@ -28,7 +29,7 @@ const loadMsg = () => {
 const getData = (city) => {
     loadMsg();
 
-    var apiKey = config.MY_KEY;
+    const apiKey = MY_KEY;
 
     let api = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
 
