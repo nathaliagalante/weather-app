@@ -26,6 +26,8 @@ Projeto desenvolvido para praticar conhecimentos em consumo de API, onde o usuá
   <a href="https://www.linkedin.com/in/nathalia-galante-58a12a125/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
 </div> 
 
+### &copy;Designed and developed by Nathalia Galante
+
 
 
 
