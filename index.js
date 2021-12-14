@@ -1,4 +1,4 @@
-const apiKey = config.MY_KEY;
+var apiKey = config.MY_KEY;
 
 const container = document.querySelector('.container');
 const btnArrow = document.querySelector('.btn-arrow');
