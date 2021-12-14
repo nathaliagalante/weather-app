@@ -1,3 +1,5 @@
+const apiKey = config.MY_KEY;
+
 const container = document.querySelector('.container');
 const btnArrow = document.querySelector('.btn-arrow');
 const btnSearch = document.querySelector('.btn-search');
@@ -81,5 +83,3 @@ btnArrow.addEventListener('click', e => {
     infoText.classList.remove('active', 'error', 'pending');
     inputField.value = '';
 })
-
-const apiKey = config.MY_KEY;
