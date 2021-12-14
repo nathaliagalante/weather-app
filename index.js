@@ -82,4 +82,4 @@ btnArrow.addEventListener('click', e => {
     inputField.value = '';
 })
 
-const apiKey = '6659425dd96b347908b23311f9ade5d0';
+const apiKey = config.MY_KEY;
