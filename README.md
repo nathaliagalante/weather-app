@@ -15,8 +15,8 @@ Projeto desenvolvido para praticar conhecimentos em consumo de API, onde o usuá
 
 ---
 
-### Link do app
-- https://nathaliagalante.github.io/weather-app/
+### Acesso em
+- https://weatherapp-io.netlify.app/
 
 ---
 
