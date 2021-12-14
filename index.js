@@ -29,7 +29,7 @@ const getData = (city) => {
     loadMsg();
 
     var apiKey = keys.MY_KEY;
-
+    
     let api = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
 
     fetch(api)
